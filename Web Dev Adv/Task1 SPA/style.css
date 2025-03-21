@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: antiquewhite;
+}
+nav {
+    background: aqua;
+
+}
+button {
+    background: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+button:hover {
+    background: lightgray;
+}

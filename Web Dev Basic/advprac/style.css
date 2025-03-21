@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  
+    text-align: center;
+}
+
+/* Form Container */
+form {
+    background: white;
+    width: 350px;
+    padding: 50px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: auto;
+    margin: 5px;    
+}
+
+/* Error Messages */
+p {
+    color: red;
+    font-size: 0.8em;
+    margin: 2px 0 10px;
+}
+
+/* Submit Button */
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #218838;
+}

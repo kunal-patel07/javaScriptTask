@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+main{
+    height: 500px;
+    width: 60%;
+    margin-top: 20px;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    height:100%;
+    width:100%;
+    position: absolute;
+    transition: 1s ease-in-out;
+}

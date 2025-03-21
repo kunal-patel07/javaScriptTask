@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <form id="formData">
+        <div class="container">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <p class="nameOut error"  ></p>
+        </div>
+        <div>
+            <label for="user">Username:</label>
+            <input type="text" id="user">
+            <p class="userOut error"></p>
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="text" id="pass">
+            <p class="passOut error"></p>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <p class="emailOut error"></p>
+        </div>
+        <div>
+            <label for="num"> Mobile No:</label>
+            <input type="text" id="num">
+            <p class="numOut error"></p>
+        </div>
+        <div>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob">
+            <p class="dobOut error"></p>
+        </div>
+        <div>
+            <label for="gender" id="Gen" name="gender">Gender</label>
+            <div class="gender-group">
+            <input type="radio" name="gender" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label> 
+        </div>               
+            <p class="genOut error  "></p>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
