@@ -18,3 +18,9 @@ button {
 button:hover {
     background: lightgray;
 }
+
+button.active{
+ background-color: blue;
+    color: white;
+    font-weight: bold;
+}

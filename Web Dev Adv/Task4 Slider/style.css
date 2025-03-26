@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
 }
-main{
+
+main {
     height: 500px;
     width: 60%;
     margin-top: 20px;
@@ -14,9 +15,40 @@ main{
     overflow: hidden;
 }
 
-.slide{
-    height:100%;
-    width:100%;
+.slide {
+    height: 100%;
+    width: 100%;
     position: absolute;
     transition: 1s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.7;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
 }
