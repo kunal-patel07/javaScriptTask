@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Validate fields
       validateField(fields.name, outputs.name, null, "Name is required");
       validateField(fields.username, outputs.username, patterns.username,"Lowercase letters,digits only(3-15 character)");
-      validateField(fields.password, outputs.password, patterns.password, "Password must be 6-15 characters");
+      validateField(fields.password, outputs.password, patterns.password, "Password must be 6-15 a-z,1 digit,special char");
       validateField(fields.email, outputs.email, patterns.email, "Invalid email format");
       validateField(fields.num, outputs.num, patterns.num, "Invalid phone number (10 digits required)");
       validateField(fields.dob, outputs.dob, null, "Enter date of birth");
